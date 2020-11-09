@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+
+    <div class="main-image">
+        <div class="overlay"></div>
+        <nav class="nav">
+            <img src="/images/hqgray1.png" alt="logo hqgray">
+            <div class="nav-wrap">
+                <a class="nav-contact" href="">Contacto</a>
+                <button class="nav-menu"></button>
+            </div>
+        </nav>
+        <div class="image-title">
+            <img src="/images/hqgrayprueba2.png" alt="">
+        </div>
+        <div class="bottom-image">
+            <p class="bottom-from">Servicios Industriales</p>
+
+           
+            
+        </div>
+   
+        <a href="#categories">
+            <i class="fas fa-chevron-down" id="arrow"></i>
+        </a>
+        
+        
+    </div>
+    <section class="categories" id="categories">
+
+        <div class="overlay2"></div>
+
+        <div class="categories-info">
+            <h2>Categorías</h2>
+            <p>Contamos con más de 40 años de experiencia en la asesoría de compra y venta de maquinarias en distintas categorías.
+            <br>
+            Al asesorarte con nosotros puedes consultar por cualquiera de las categorías dispuestas.
+            </p>
+        </div>
+        <div class="categories-cards">
+            <div class="categoria categoria1">
+                <h3>Maderas</h3>
+                <ul class="categoria__list">
+                    <li>Secadores</li>
+                    <li>Aserraderos</li>
+                    <li>Calderas</li>
+                    <li>Cepilladoras</li>
+             
+                </ul>
+            </div>
+            <div class="categoria categoria2">
+                <h3>Renovables</h3>
+                <ul class="categoria__list">
+                    <li>Solar</li>
+                    <li>Eólica</li>
+                    <li>Biomasa</li>
+                    <li>Turbinas</li>
+            
+                </ul>
+
+            </div>
+            <div class="categoria categoria3">
+                <h3>Perforadoras</h3>
+                <ul class="categoria__list">
+                    <li>Geotecnia</li>
+                    <li>Pozos de agua</li>
+                    <li>Minería</li>
+                    <li>CPTU</li>
+            
+                </ul>
+
+            </div>
+            <div class="categoria categoria4">
+                <h3>Metalmecánica</h3>
+                <ul class="categoria__list">
+                    <li>Tornos</li>
+                    <li>Guillotinas</li>
+                    <li>Cilindradoras</li>
+                    <li>Láser</li>
+     
+                </ul>
+        </div>
+
+    
+        
+    </section>
+    <main class="main" id="main">
+
+        <section class="asesorias">
+            <div class="asesorias-info">
+                
+                <p>Asesoramos hace más de 40 años diversas empresas en la compra de maquinarias, representación Internacional y servicios industriales de equipamiento. Contamos con una amplia experiencia y trayectoria, lo cual nos ha permitido ser líderes en el mercado en las diferentes áreas del sector industrial como: Energía (Plantas y/o calderas de Biomasa) Mineria y Agricultura.</p>
+                <h2>Asesorías</h2>
+            </div>
+            <div class="wrapper-proveedores">
+                <div class="proveedores-title">
+                    <h2>Suministro de equipos y herramientas de calidad para tus proyectos</h2>
+                </div>
+                <div class="proveedores-content">
+                    <p>La calidad de maquinarias de nuestros proveedores es consistente con los requerimientos en cuanto a productividad y eficiencia, nuestras asesorías le permitirán tener un excelente desempeño en sus proyectos</p>
+                    <br>
+                    <p>Los equipos de nuestros proveedores son producidos con materiales de alta resistencia, esto le entrega a nuestros clientes una garantía de calidad</p>
+                    <br>
+                    <p>Tenemos una amplia gama de maquinarias a su disposición, esta diversidad le permitirá obtener el producto más ajustado a las necesidades y requerimientos de su proyecto</p>
+                    <br>
+                    <h3>Al asesorarte con HQGray te aseguras de conseguir maquinarias a precios competitivos y con altos estándares de calidad</h3>
+                    <br>
+                    <p>Contamos con proveedores de alto nivel y respaldo internacional, con amplias trayectorias en la venta internacional de maquinarias.</p>
+                </div>
+                <div class="proveedores-img">
+                    <img src="/images/Bigondry.png" alt="">
+                    <img src="/images/DANDO-LOGO-ORANGE-nuevo.png" alt="">
+                    <img src="/images/Logo-Azeuz.png" alt="">
+                    <img src="/images/Logo-Qingdao-Xingfu.png" alt="">
+                    <img src="/images/tecop.png" alt="">
+                    <img src="/images/turbo.png" alt="">
+                </div>
+            </div>
+
+        </section>
+        
+    </main>
+    <section class="contact" id="contact">
+        <h3>Contáctanos</h3>
+        <div class="container-contact">
+            <form class="container-contact__form" id ="contact-form" action="correo.php" method="POST">  
+                        <label>Nombre</label>
+                        <input type="text" name="name" id="name" placeholder="Ingrese su nombre" required> 
+                        <label>Email</label>
+                        <input type="email" name="email" id="email" placeholder="Ingrese su correo" required>
+                        <label>Asunto</label>
+                        <input type="text" name="asunto" id="asunto" placeholder="Asunto" required>
+                        <label>Mensaje</label>
+                        <textarea name="mensaje" id="textarea" placeholder="Escriba su mensaje..." required></textarea>
+                        <input type="submit" id="submit" value="Enviar">
+            </form> 
+        </div>
+    </section>
+    <footer class ="footer">
+        <div class="footer-sections">
+
+            <div class="footer-section">
+                <h3>Find us here</h3>
+                <h5>BELGIUM - at Fosbury & Sons</h5>
+                <p>Mechelsesteenweg 271, 2018 Antwerp</p>
+                <p>Alfons Gossetlaan 40, 1702 Groot-Bijgaarden </p>
+                <h5>BELGIUM - at Fosbury & Sons</h5>
+                <p>Mechelsesteenweg 271, 2018 Antwerp</p>
+                <p>Alfons Gossetlaan 40, 1702 Groot-Bijgaarden </p>
+            </div>
+            <div class="footer-section">
+                <h3>Get started</h3>
+                <ul>
+                    <li><a href="#">For executives</a></li>
+                    <li><a href="#">For brand professionals</a></li>
+                    <li><a href="#">For people managers</a></li>
+                    <li><a href="#">Come to our retreat</a></li>
+                
+                    <li><a href="#">Buy our book</a></li>
+                    <li><a href="#">Book us as a speaker</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+    
+            </div>
+            <div class="footer-section">
+                <h3>Find out more</h3>
+                <a href="#">Community Brand Network</a>
+                <a href="#">
+                    <i id ="footer-icon" class="fab fa-accusoft"></i>
+                </a>
+                
+    
+            </div>
+
+
+
+
+        </div>
+        
+        <div class="terms">
+            <a href="#">Privacy</a>
+            <a href="#">Terms of Use</a>
+        </div>
+        
+
+    </footer>
+
+
+    
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
+</body>
+</html>

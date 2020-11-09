@@ -1,0 +1,46 @@
+@import "normalize";
+@import "mainImage";
+
+*,
+*:after,
+*:before {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template:
+    "image" 100vh
+    "categories" auto
+    "main" auto
+    "contact" auto
+    "footer" auto;
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.overlay {
+    width:100%;
+    height:inherit;
+    background-color: rgba(1,1,1,.76);
+    position: absolute;
+}
+
+.overlay2 {
+    width:100%;
+    height:inherit;
+    position: absolute;
+    background-color: rgba(1,1,1,.8);
+    
+
+}
+
+
+
